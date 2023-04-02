@@ -1,0 +1,11 @@
+{{define "title"}}
+유저목록
+{{end}}
+{{define "body"}}
+<ul>
+    {{ range $user := .user_list }}
+    <li>아이디: {{ $user.user_id }} | 이름: {{ $user.user_name }} | 타입: {{ $user.user_type }}</li>
+    {{ end }}
+</ul>
+
+{{end}}

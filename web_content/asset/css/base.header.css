@@ -1,0 +1,30 @@
+header{
+    background-color:#02c7ea;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+}
+
+div#logo{
+    float:left;
+    width:50%;
+    padding:10px 0 0 20px;
+}
+
+ul.nav{
+    float:left;
+    list-style:none;
+    width:45%;
+}
+
+ul.nav li{
+    float:left;
+}
+
+ul.nav a{
+    line-height:40px;
+    color:#FFFFFF;
+    padding:0 15px;
+    text-decoration: none;
+}
